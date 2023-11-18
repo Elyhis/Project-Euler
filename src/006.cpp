@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cmath>
-#include "primeNumber.h"
 using namespace std;
 
 int sum(int n){

@@ -2,7 +2,7 @@
 using namespace std;
 
 int nbElem(int bound, int elm){
-    return (int)((bound - 1)/elm);
+    return bound/elm;
 }
 
 int sum(int bound, int elm){
@@ -11,7 +11,7 @@ int sum(int bound, int elm){
 
 int main(){
     int res;
-    int bound = 1000;
+    int bound = 999;
     int elm = 5;
 
     res = elm * sum(bound, elm);
@@ -24,6 +24,6 @@ int main(){
 
 
 
-    cout << "La sommes des entiers divisible par 3 ou 5 inferieur à 1000 est : " << res << endl;
+    cout << "La sommes des entiers divisible par 3 ou 5 inferieur a 1000 est : " << res << endl;
     return 0;
 }

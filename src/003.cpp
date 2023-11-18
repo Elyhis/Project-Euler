@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     unsigned long long limit = 600851475143;
-    vector<unsigned long> primes = primeList((unsigned long)ceil(sqrt((double)limit)));
+    vector<unsigned long> primes = primeListUpTo((unsigned long)ceil(sqrt((double)limit)));
     auto i = primes.rbegin();
 
     for (; limit % (unsigned long long)*i != 0; i++)
