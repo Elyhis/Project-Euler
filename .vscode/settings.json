@@ -5,6 +5,12 @@
         "cmath": "cpp",
         "iostream": "cpp",
         "atomic": "cpp",
-        "xstring": "cpp"
-    }
+        "xstring": "cpp",
+        "initializer_list": "cpp",
+        "type_traits": "cpp",
+        "xutility": "cpp",
+        "string": "cpp",
+        "numeric": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
